@@ -2,7 +2,7 @@
   "name": "react-apollo-instagram-example",
   "version": "0.0.1",
   "private": true,
-  "homepage": "https://myusername.github.io/React-Apollo-GraphQL-GraphCool-Quickstart",
+  "homepage": "https://syedaman.github.io/GraphCool-Instagram-Clone",
   "devDependencies": {
     "gh-pages": "^1.0.0",
     "prettier-eslint-cli": "^4.4.0",
