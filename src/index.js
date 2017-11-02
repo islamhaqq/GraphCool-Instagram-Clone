@@ -11,7 +11,7 @@ import { InMemoryCache } from 'apollo-cache-inmemory'
 import 'tachyons'
 import './index.css'
 
-const API_ENDPOINT: 'https://api.graph.cool/simple/v1/cj9ierkzy1d3w0189ge4x5z6e'
+const API_ENDPOINT = 'https://api.graph.cool/simple/v1/cj9ierkzy1d3w0189ge4x5z6e'
 const httpLink = new HttpLink({ uri: API_ENDPOINT })
 
 const client = new ApolloClient({

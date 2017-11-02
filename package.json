@@ -2,7 +2,9 @@
   "name": "react-apollo-instagram-example",
   "version": "0.0.1",
   "private": true,
+  "homepage": "https://myusername.github.io/React-Apollo-GraphQL-GraphCool-Quickstart",
   "devDependencies": {
+    "gh-pages": "^1.0.0",
     "prettier-eslint-cli": "^4.4.0",
     "react-scripts": "^1.0.16"
   },
@@ -21,6 +23,8 @@
     "tachyons": "^4.9.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
